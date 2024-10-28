@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  username: postgres
+  password: india^123
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: auth_development
+
+test:
+  <<: *default
+  database: auth_test
