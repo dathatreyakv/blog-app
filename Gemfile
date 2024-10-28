@@ -69,3 +69,4 @@ end
 
 gem 'sassc-rails'
 gem 'webpacker'
+gem 'bcrypt'
